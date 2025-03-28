@@ -1,0 +1,5 @@
+#!/usr/bin/with-contenv bash
+
+echo "*** Installing UV ***"
+curl -LsSf https://astral.sh/uv/install.sh | sh
+echo "*** UV installed ***"
